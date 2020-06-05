@@ -14,7 +14,7 @@ fi
 
 #Comprobar si existe el directorio
 if [ ! -d $searchDir ]; then
-	echo "$1 No un Directorio"
+	echo "$1 No es un Directorio"
 	exit
 fi
 
